@@ -1,4 +1,4 @@
-// src/middlewares/error.middleware.js
+
 const logger = require('../config/logger.config');
 
 module.exports = (err, req, res, next) => {
