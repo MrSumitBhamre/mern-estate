@@ -1,4 +1,4 @@
-// src/validations/auth.validation.js
+
 const Joi = require('joi');
 
 exports.registerSchema = Joi.object({
