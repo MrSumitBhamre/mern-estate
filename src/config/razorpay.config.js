@@ -1,4 +1,4 @@
-// src/config/razorpay.config.js
+
 const Razorpay = require('razorpay');
 
 const razorpay = new Razorpay({
