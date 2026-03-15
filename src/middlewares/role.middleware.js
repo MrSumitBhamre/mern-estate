@@ -1,4 +1,4 @@
-// src/middlewares/role.middleware.js
+
 const apiResponse = require('../utils/apiResponse.util');
 
 module.exports = (...allowedRoles) => {
