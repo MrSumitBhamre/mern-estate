@@ -1,4 +1,4 @@
-// src/validations/booking.validation.js
+
 const Joi = require('joi');
 
 exports.createBookingSchema = Joi.object({
