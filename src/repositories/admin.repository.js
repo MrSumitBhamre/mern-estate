@@ -1,4 +1,4 @@
-// src/repositories/admin.repository.js
+
 const pool = require('../config/db.config');
 
 exports.getDashboardStats = async () => {
