@@ -1,4 +1,4 @@
-// src/repositories/booking.repository.js
+
 const pool = require('../config/db.config');
 
 exports.checkDateConflict = async (property_id, start, end, conn) => {
