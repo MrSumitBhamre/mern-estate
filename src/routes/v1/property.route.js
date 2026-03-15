@@ -1,4 +1,4 @@
-// src/routes/v1/property.route.js
+
 const express = require('express');
 const router = express.Router();
 
