@@ -1,4 +1,4 @@
-// src/services/admin.service.js
+
 const repo = require('../repositories/admin.repository');
 
 exports.dashboard = async () => {
