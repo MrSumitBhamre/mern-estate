@@ -1,4 +1,4 @@
-// src/validations/property.validation.js
+
 const Joi = require('joi');
 
 exports.createPropertySchema = Joi.object({
