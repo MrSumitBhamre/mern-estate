@@ -1,4 +1,3 @@
-// src/repositories/property.repository.js
 
 const pool = require('../config/db.config');
 
