@@ -1,4 +1,4 @@
-// src/utils/password.util.js
+
 const bcrypt = require('bcrypt');
 
 exports.hashPassword = async (password) => {
