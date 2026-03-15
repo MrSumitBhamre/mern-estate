@@ -1,4 +1,4 @@
-// src/services/auth.service.js
+
 const jwtConfig = require('../config/jwt.config');
 const passwordUtil = require('../utils/password.util');
 const repo = require('../repositories/auth.repository');
