@@ -4,10 +4,7 @@ const path = require('path');
 dotenv.config({
   path: path.resolve(__dirname, '../../.env')
 });
-/**
- * Centralized environment config
- * Prevents direct process.env access across app
- */
+
 module.exports = {
   port: process.env.PORT,
   nodeEnv: process.env.NODE_ENV,
