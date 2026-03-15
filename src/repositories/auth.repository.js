@@ -1,4 +1,4 @@
-// src/repositories/auth.repository.js
+
 const pool = require('../config/db.config');
 
 exports.findUserByEmail = async (email) => {
