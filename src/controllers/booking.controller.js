@@ -1,4 +1,4 @@
-// src/controllers/booking.controller.js
+
 const asyncHandler = require('../utils/asyncHandler.util');
 const service = require('../services/booking.service');
 const apiResponse = require('../utils/apiResponse.util');
