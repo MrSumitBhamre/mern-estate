@@ -1,12 +1,4 @@
-// src/middlewares/validate.middleware.js
 
-/**
- * Generic Joi Validation Middleware
- * Ensures:
- * - Body validation
- * - Clean error response
- * - No controller execution if invalid
- */
 
 const apiResponse = require('../utils/apiResponse.util');
 
