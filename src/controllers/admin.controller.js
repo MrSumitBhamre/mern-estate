@@ -1,4 +1,4 @@
-// src/controllers/admin.controller.js
+
 const asyncHandler = require('../utils/asyncHandler.util');
 const service = require('../services/admin.service');
 const apiResponse = require('../utils/apiResponse.util');
