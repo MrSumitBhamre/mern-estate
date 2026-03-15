@@ -1,6 +1,4 @@
-/**
- * Standardized API Response Format
- */
+
 exports.success = (res, message, data = {}, meta = {}) => {
   return res.status(200).json({
     success: true,
