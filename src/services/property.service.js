@@ -1,10 +1,8 @@
-// src/services/property.service.js
+
 
 const repo = require('../repositories/property.repository');
 
-/**
- * Slug generator
- */
+
 const slugify = (text) => {
     return text
         .toLowerCase()
@@ -14,9 +12,7 @@ const slugify = (text) => {
 };
 
 
-/**
- * CREATE PROPERTY
- */
+
 exports.createProperty = async (payload, user) => {
 
     const slug = `${slugify(payload.title)}-${Date.now()}`;
@@ -31,9 +27,7 @@ exports.createProperty = async (payload, user) => {
 };
 
 
-/**
- * UPDATE PROPERTY
- */
+
 exports.updateProperty = async (id, payload, user) => {
 
     const property = await repo.findById(id);
@@ -52,9 +46,7 @@ exports.updateProperty = async (id, payload, user) => {
 };
 
 
-/**
- * DELETE PROPERTY (Soft Delete)
- */
+
 exports.deleteProperty = async (id, user) => {
 
     const property = await repo.findById(id);
@@ -73,9 +65,7 @@ exports.deleteProperty = async (id, user) => {
 };
 
 
-/**
- * GET ALL PROPERTIES
- */
+
 exports.getProperties = async (query) => {
 
     const page = parseInt(query.page) || 1;
@@ -86,10 +76,6 @@ exports.getProperties = async (query) => {
     return await repo.getAll(query, limit, offset);
 };
 
-
-/**
- * GET PROPERTY BY ID
- */
 exports.getPropertyById = async (id) => {
 
     const property = await repo.findById(id);
