@@ -1,4 +1,4 @@
-// src/middlewares/rateLimit.middleware.js
+
 const rateLimit = require('express-rate-limit');
 const env = require('../config/env.config');
 
