@@ -1,4 +1,4 @@
-// src/repositories/payment.repository.js
+
 const pool = require('../config/db.config');
 
 exports.createPayment = async (data, conn) => {
