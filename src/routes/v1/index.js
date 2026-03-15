@@ -1,4 +1,4 @@
-// src/routes/v1/index.js
+
 const express = require('express');
 const router = express.Router();
 
