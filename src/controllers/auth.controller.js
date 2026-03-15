@@ -1,4 +1,4 @@
-// src/controllers/auth.controller.js
+
 const asyncHandler = require('../utils/asyncHandler.util');
 const service = require('../services/auth.service');
 const apiResponse = require('../utils/apiResponse.util');
