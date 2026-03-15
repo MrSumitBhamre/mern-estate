@@ -1,4 +1,4 @@
-// src/controllers/property.controller.js
+
 const asyncHandler = require('../utils/asyncHandler.util');
 const service = require('../services/property.service');
 const apiResponse = require('../utils/apiResponse.util');
