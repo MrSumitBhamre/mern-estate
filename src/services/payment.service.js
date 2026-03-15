@@ -3,9 +3,7 @@ const pool = require('../config/db.config');
 const repo = require('../repositories/payment.repository');
 
 
-/**
- * Create Stripe Payment Intent
- */
+
 exports.createStripeIntent = async (booking_id) => {
 
     const [rows] = await pool.query(
@@ -31,9 +29,7 @@ exports.createStripeIntent = async (booking_id) => {
 };
 
 
-/**
- * Handle Stripe Webhook
- */
+
 exports.handleStripeWebhook = async (intent) => {
 
     const booking_id = intent.metadata.booking_id;
