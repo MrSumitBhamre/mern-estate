@@ -1,4 +1,4 @@
-// src/services/booking.service.js
+
 const pool = require('../config/db.config');
 const repo = require('../repositories/booking.repository');
 
@@ -10,7 +10,7 @@ exports.createBooking = async (payload, user) => {
 
         const { property_id, start_date, end_date } = payload;
 
-        // Lock property row to prevent race condition
+        // Lock property 
         await conn.query(
             `SELECT id FROM properties WHERE id = ? FOR UPDATE`,
             [property_id]
